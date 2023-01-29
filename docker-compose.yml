@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   db:
-    image: postgres:14
+    image: postgres:12
     user: root
     environment:
       - POSTGRES_USER=root
